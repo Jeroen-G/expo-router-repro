@@ -1,12 +1,11 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
+import {Link} from "expo-router";
 
 export default function DrawerTestPage() {
     return (
         <View>
-            <Text>
-                Test
-            </Text>
+            <Link href="/home">To home</Link>
         </View>
     );
 }

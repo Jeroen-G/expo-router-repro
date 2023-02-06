@@ -1,13 +1,11 @@
-import { Slot } from 'expo-router';
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
+import {Drawer} from "expo-router/drawer";
 
-export default function Layout() {
+export default function () {
     return (
         <SafeAreaProvider>
-            <StatusBar style="dark" />
-            <Slot />
+            <Drawer screenOptions={{drawerPosition: 'right'}} />
         </SafeAreaProvider>
     );
-}
+};
