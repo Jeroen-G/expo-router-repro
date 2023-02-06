@@ -1,11 +1,11 @@
 import React from 'react';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
-import {Drawer} from "expo-router/drawer";
+import {Stack} from "expo-router";
 
 export default function () {
     return (
         <SafeAreaProvider>
-            <Drawer screenOptions={{drawerPosition: 'right'}} />
+            <Stack />
         </SafeAreaProvider>
     );
 };

@@ -6,9 +6,9 @@ export default function () {
     return (
         <View>
             <Text>
-               Home
+                Contact
             </Text>
-            <Link href={'/draws/home/about'}>Go about</Link>
+            <Link href={'/stack1/stack2/home/about'}>Go about</Link>
         </View>
     );
 }

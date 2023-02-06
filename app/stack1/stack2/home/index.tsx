@@ -6,9 +6,9 @@ export default function () {
     return (
         <View>
             <Text>
-                Contact
+               Home
             </Text>
-            <Link href={'/'}>Go index</Link>
+            <Link href={'/stack1/stack2/home/about'}>Go about</Link>
         </View>
     );
 }

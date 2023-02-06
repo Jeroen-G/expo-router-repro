@@ -8,7 +8,7 @@ export default function () {
             <Text>
                Index
             </Text>
-            <Link href={'/draws/home'}>Go home</Link>
+            <Link href={'/stack1/stack2/home'}>Go home</Link>
         </View>
     );
 }
