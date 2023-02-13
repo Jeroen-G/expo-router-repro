@@ -1,14 +1,12 @@
 import {Text, View} from "react-native";
 import React from "react";
-import {Link} from "expo-router";
 
-export default function () {
+export default function Beta() {
     return (
         <View>
             <Text>
-               Home
+                Beta
             </Text>
-            <Link href={'/stack1/stack2/home/about'}>Go about</Link>
         </View>
     );
 }

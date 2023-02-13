@@ -1,14 +1,12 @@
 import {Text, View} from "react-native";
 import React from "react";
-import {Link} from "expo-router";
 
-export default function () {
+export default function Charlie() {
     return (
         <View>
             <Text>
-                About
+                Charlie
             </Text>
-            <Link href={'/'}>Go index</Link>
         </View>
     );
 }
